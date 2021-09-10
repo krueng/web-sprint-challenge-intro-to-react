@@ -6,14 +6,14 @@ const Characters = (props) => {
 
 
     return (
-        <div>
+        <>
             {characters.map(character => {
                 return <Character
                     key={character.name}
                     character={character}
                     />
     })}
-        </div>
+        </>
     );
 
 };
