@@ -2,8 +2,7 @@ import React from 'react';
 import Character from './Character';
 
 const Characters = (props) => {
-     const { characters } = props;
-
+    const { characters } = props;
 
     return (
         <>
@@ -11,11 +10,10 @@ const Characters = (props) => {
                 return <Character
                     key={character.name}
                     character={character}
-                    />
-    })}
+                />
+            })}
         </>
     );
-
 };
 
 export default Characters;

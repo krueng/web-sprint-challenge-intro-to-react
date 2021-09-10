@@ -71,7 +71,7 @@ After finishing your required elements, you can push your work further. These go
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes.
+- [x] Submit via Codegrade by committing and pushing any new changes.
 - [ ] Create a pull request to merge `<firstName-lastName>` branch into `main`.
 - [ ] Please don't merge your own pull request and make sure **you are on your own repo**.
 - [ ] Check Codegrade for automated feedback.
@@ -83,6 +83,13 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- React JS is an open source frontend framework created by Facebook, best known for it's virtual DOM and simple design. The main issue that React JS tried to solve was speeding up the process of web interaction and changes. It reacts faster and renders instantly. For example, if you want to update number of 'likes' you don't really need to re-render the whole page, just modify 'likes' components.
+
 1. Describe component state.
+- Component state is managed within the component, the situation where the component's state object is waiting for state changes. When it changes the component responds by re-rendering.
+
 1. Describe props.
+- Props or properties is a javascript object which hold information that influences the output of render, it gets passed to the component.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+- Side effects is anything that effects something outside the scope of the function that is being executed to trigger events to occur after something is rendered. The Effect Hook lets you perform side effects in function components. useEffect(() => {setState(props)},[props]);
